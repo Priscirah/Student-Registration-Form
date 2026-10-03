@@ -1,0 +1,35 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+.container {
+    background-color: powderblue;
+    width: 350px;
+    margin: 40px auto;
+    padding: 20px;
+    border: radius 10px; ;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+input, select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: palegreen;
+    cursor: pointer;
+}
